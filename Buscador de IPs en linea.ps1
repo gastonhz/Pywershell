@@ -1,4 +1,6 @@
-﻿"#"
+#Este script toma un rango de IPs introducido por el usuario y verifica su estado, si responden a red las imprime en pantalla.
+#Gastón Galarza, MDA-Tecnico 09/2017, github.com/gastonhz/Scripts
+"#"
 "#"
 "#"
 "#"
@@ -10,8 +12,8 @@
 "#"
 
 $red    = Read-Host -Prompt "Ingresar IP con formato 10.xxx.xxx: "
-$inicio = Read-Host -Prompt "Ingresar IP inicial: "
-$fin    = Read-Host -Prompt "Ingresar IP final: "
+$inicio = Read-Host -Prompt "Último octeto inicial: "
+$fin    = Read-Host -Prompt "Último octeto final: "
 
 $rango = $inicio..$fin
 
@@ -27,4 +29,3 @@ if (Test-NetConnection $red`.$octeto -InformationLevel quiet){
 }
 
 pause
-

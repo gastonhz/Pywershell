@@ -1,4 +1,5 @@
-﻿"Este script busca las PCs en red dentro de un rango determinado y les borra la cola de impresión."
+#Gastón Galarza, MDA-Tecnico 09/2017, github.com/gastonhz/Scripts
+"Este script busca las PCs en red dentro de un rango determinado y les borra la cola de impresión."
 " "
 ##Esta parte releva las PCs conectadas y las tira en un csv 
 $red    = Read-Host -Prompt "Ingresar IP con formato 10.xxx.xxx: "

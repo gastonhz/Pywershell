@@ -1,3 +1,5 @@
+#Este script borra archivos temporales en algunas rutas del sistema.
+#Gastón Galarza, MDA-Tecnico 09/2017, github.com/gastonhz/Scripts
 import os
 import re
 hostname=input("Ingresar IP: ")

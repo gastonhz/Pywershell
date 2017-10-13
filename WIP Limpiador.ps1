@@ -1,4 +1,7 @@
-﻿"Limpiador de temporales"
+#Este script borra archivos temporales en algunas rutas del sistema.
+#Traducción a Powershell de Temporales.py
+#Gastón Galarza, MDA-Tecnico 09/2017, github.com/gastonhz/Scripts
+"Limpiador de temporales"
 ""
 $hostname=Read-Host -Prompt "Ingresar IP: "
 
@@ -17,5 +20,4 @@ Remove-Item -path \\$hostname\c$\Users\$user\Appdata\LocalLow\Sun\Java\Deploymen
 "Eliminados los temporales de Appdata\LocalLow\Sun\Java\Deployment\Cache de $user"
 }
     
-
 "Finalizado. Algunos archivos pueden estar en uso y no haber sido borrados."

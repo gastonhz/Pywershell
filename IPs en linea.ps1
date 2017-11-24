@@ -1,5 +1,5 @@
 #Este script toma un rango de IPs introducido por el usuario y verifica su estado, si responden a red las imprime en pantalla.
-#Gastón Galarza, MDA-Tecnico 09/2017, github.com/gastonhz/Scripts
+#github.com/gastonhz/Pywershell
 "#"
 "#"
 "#"

@@ -1,4 +1,4 @@
-#Gastón Galarza, MDA-Tecnico 09/2017, github.com/gastonhz/Scripts
+#github.com/gastonhz/Pywershell
 "Este script busca las PCs en red dentro de un rango determinado y les borra la cola de impresión."
 " "
 ##Esta parte releva las PCs conectadas y las tira en un csv 

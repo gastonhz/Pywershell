@@ -1,6 +1,6 @@
 
 # Pywershell
-Algunos scripts que uso para facilitarme un poco la vida. 
+Algunos scripts que escribí para facilitarme un poco la vida. 
 
 Desactualizado
 
